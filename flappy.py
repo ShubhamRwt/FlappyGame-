@@ -5,6 +5,7 @@ import sys
 import pygame
 from pygame.locals import *
 
+# new comments added
 
 FPS = 30
 SCREENWIDTH  = 288
@@ -314,7 +315,7 @@ def mainGame(movementInfo):
         visibleRot = playerRotThr
         if playerRot <= playerRotThr:
             visibleRot = playerRot
-        
+
         playerSurface = pygame.transform.rotate(IMAGES['player'][playerIndex], visibleRot)
         SCREEN.blit(playerSurface, (playerx, playery))
 
