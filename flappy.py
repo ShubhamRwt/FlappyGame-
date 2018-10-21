@@ -5,7 +5,7 @@ import sys
 import pygame
 from pygame.locals import *
 
-# new comments added
+# new comments added:
 
 FPS = 30
 SCREENWIDTH  = 288
