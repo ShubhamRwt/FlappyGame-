@@ -1,2 +1,2 @@
 # FlappyGame-
-Flappy Bird Game for Android
+Flappy Bird Game for Android devices.
